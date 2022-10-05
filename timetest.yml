@@ -10,5 +10,5 @@
       mode: '777'
   
   - name: run long running script
-    action: command ./sleeper.sh 10000
+    action: command ./sleeper.sh 100000000000000
     become: yes
