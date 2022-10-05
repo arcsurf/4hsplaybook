@@ -1,6 +1,6 @@
-- hosts: Ubuntu22
-  #connection: local
+- hosts: all
+  connection: local
 
   tasks: 
   - name: run long running script
-    shell: ./sleeper.sh 10
+    action: command ./sleeper.sh 10000
