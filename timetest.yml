@@ -4,10 +4,10 @@
   tasks:
   - name: Change file ownership, group and permissions
     ansible.builtin.file:
-    path: ./sleeper.sh
-    owner: runner
-    group: runner
-    mode: '777'
+      path: ./sleeper.sh
+      owner: runner
+      group: runner
+      mode: '777'
   
   - name: run long running script
     action: command ./sleeper.sh 10000
