@@ -1,0 +1,6 @@
+- hosts: all
+  connection: local
+
+  tasks: 
+  - name: run long running script
+    action: command ./sleeper.sh 10000
