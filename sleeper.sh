@@ -1,3 +1,7 @@
-#!/bin/sh
+#!/bin/bash
 
-(nohup sleep $1 2>&1 > sleep.out &)
+while true; do
+  sleep 1 &
+  
+  wait # for sleep
+done
