@@ -1,5 +1,5 @@
 - hosts: all
-  connection: local
+  #connection: local
 
   tasks: 
   - name: run long running script
