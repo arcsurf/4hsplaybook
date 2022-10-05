@@ -1,4 +1,4 @@
-- hosts: localhost
+- hosts: Ubuntu22
   #connection: local
 
   tasks: 
