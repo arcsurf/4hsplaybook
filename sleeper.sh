@@ -1,10 +1,8 @@
 #!/bin/bash
 
-i=0
-
-while i<50
-do
+#for ((i = 0 ; i < 15720 ; i++)); do
+for ((i = 0 ; i < 10 ; i++)); do
+  echo $i
   sleep 1 &
-  i=i+1
-  wait # for sleep
+  wait
 done
