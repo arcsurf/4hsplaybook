@@ -4,3 +4,4 @@
   tasks: 
   - name: run long running script
     action: command ./sleeper.sh 10000
+    become: yes
