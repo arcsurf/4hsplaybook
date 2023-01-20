@@ -2,7 +2,7 @@
   gather_facts: false
   tasks:
 
-    - name: Pause for 50000 minutes
+    - name: Pause for "{{ minutes }}" minutes
       ansible.builtin.pause:
         minutes: "{{ minutes }}"
         
