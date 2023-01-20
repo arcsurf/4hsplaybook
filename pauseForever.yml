@@ -5,3 +5,6 @@
     - name: Pause for 50000 minutes
       ansible.builtin.pause:
         minutes: "{{ minutes }}"
+        
+    - debug:
+        msg: "FInished"
