@@ -1,0 +1,7 @@
+- hosts: all
+  gather_facts: false
+  tasks:
+
+    - name: Pause for 50000 minutes
+      ansible.builtin.pause:
+        minutes: 245
